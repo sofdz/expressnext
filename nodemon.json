@@ -1,0 +1,6 @@
+{
+    "ignore": [".git", "node_modules", "dist"],
+    "watch": ["./src/*"], 
+    "exec": "npm run build && npx ts-node --project tsconfig.server.json src/server.ts", 
+    "ext": "tsx" 
+  }
